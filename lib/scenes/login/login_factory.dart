@@ -15,11 +15,3 @@ abstract final class LoginFactory {
     return LoginView(viewModel: viewModel);
   }
 }
-
-/*
-   server  = Server()
-   coordinator = Coordinator()
-   viewModel = ViewModel(server, coordinator) //Injecao de dependencia
-   view = View(viewModel) //Injecao de dependencia
-   factory.make() - > View (tela pronta para uso, visual e logica)
- */

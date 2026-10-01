@@ -32,11 +32,10 @@ class _LoginViewState extends State<LoginView> {
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                Text('Entrar', style: textTheme.headlineMedium),
-                const Gap.xs(),
                 Text(
                   'Acesse sua carteira digital',
-                  style: textTheme.bodyMedium,
+                  style: textTheme.headlineSmall,
+                  textAlign: TextAlign.center,
                 ),
                 const Gap.xl(),
                 AppTextField(
